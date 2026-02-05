@@ -1,27 +1,38 @@
-Overview
-This project analyzes car pricing data using statistical modeling and machine learning techniques in R. It explores factors influencing vehicle prices, such as make, model, mileage, condition, and market trends, to build predictive models for valuation.
+# 🚗 Car Price Analysis
 
-Key Components
-Data Sources: Datasets from automotive marketplaces, Kaggle, or scraped APIs (e.g., features like year, engine type, transmission).
+## 📌 Project Overview
+This project focuses on analyzing car prices using statistical and data analysis techniques to identify the key factors that influence vehicle pricing. The analysis is performed using **R and RStudio** as part of a university coursework project.
 
-Analysis Pipeline:
+The goal is to explore how different attributes such as brand, model year, mileage, engine capacity, fuel type, and transmission affect car prices, and to build insights that could assist buyers, sellers, or analysts in decision-making.
 
-Exploratory Data Analysis (EDA) with ggplot2 and dplyr.
+---
 
-Feature engineering for variables like age, fuel efficiency.
+## 🎯 Objectives
+- Perform exploratory data analysis (EDA) on car price datasets  
+- Identify significant features influencing car prices  
+- Analyze trends and correlations between variables  
+- Apply basic statistical models for price prediction  
 
-Predictive modeling (linear regression, random forests, XGBoost).
+---
 
-Model evaluation and visualization of price predictions.
+## 🛠️ Tools & Technologies
+- **R**
+- **RStudio**
+- Libraries such as:
+  - `ggplot2`
+  - `dplyr`
+  - `tidyverse`
+  - `caret` (if applicable)
 
-Tools: RStudio, tidyverse, caret, rmarkdown for reports.
+---
 
-Setup
-Clone the repo: git clone <repo-url>
+## 📊 Methodology
+1. Data loading and cleaning  
+2. Feature exploration and visualization  
+3. Correlation and statistical analysis  
+4. Model building (regression / predictive analysis)  
+5. Interpretation of results  
 
-Install dependencies: renv::restore() or run install.packages(c("tidyverse", "caret", "randomForest"))
+---
 
-Open Car_Price_Analysis.Rproj in RStudio and run main.Rmd.
-
-Results
-Interactive dashboards (via shiny or plotly) show price trends and model performance. Example: A 2020 Honda Civic with 50k miles predicts ~$22k base value.
+## 📁 Project Structure
