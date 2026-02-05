@@ -36,3 +36,7 @@ The goal is to explore how different attributes such as brand, model year, milea
 ---
 
 ## 📁 Project Structure
+├── data/ # Dataset(s)
+├── scripts/ # R scripts for analysis
+├── plots/ # Generated visualizations
+└── README.md
